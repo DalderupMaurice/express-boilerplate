@@ -115,4 +115,3 @@ This project is licensed under the [MIT License](https://github.com/DalderupMaur
 ## Meta
 
 Maurice Dalderup – [@mauricedalderup](twitter.com/mauricedalderup) – Maurice_Dalderup@hotmail.com
-
