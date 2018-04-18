@@ -11,7 +11,7 @@ import expressValidation from "express-validation";
 import helmet from "helmet";
 import winstonInstance from "winston";
 
-import routes from "../index.route";
+import routes from "../server/index.route";
 import config from "./config";
 import APIError from "../server/utils/APIError";
 

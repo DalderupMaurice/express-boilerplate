@@ -5,27 +5,32 @@ This is a boilerplate application for building REST APIs in Node.js using ES6 an
 ## Getting Started
 
 Clone the repo:
+
 ```sh
 git clone https://github.com/DalderupMaurice/express-boilerplate.git
 cd express-boilerplate
 ```
 
 Install yarn:
+
 ```js
 npm install -g yarn
 ```
 
 Install dependencies:
+
 ```sh
 yarn
 ```
 
 Set environment (vars):
+
 ```sh
 cp .env.example .env
 ```
 
 Start server:
+
 ```sh
 # Start server
 yarn start
@@ -35,8 +40,9 @@ DEBUG=express-boilerplate:* yarn start
 ```
 
 Tests:
+
 ```sh
-# Run tests written in ES6 
+# Run tests written in ES6
 yarn test
 
 # Run test along with code coverage
@@ -50,6 +56,7 @@ yarn test:check-coverage
 ```
 
 Lint:
+
 ```sh
 # Lint code with ESLint
 yarn lint
@@ -59,6 +66,7 @@ yarn lint:watch
 ```
 
 Other gulp tasks:
+
 ```sh
 # Wipe out dist and coverage directory
 gulp clean
@@ -86,30 +94,12 @@ gulp
 In production you need to make sure your server is always up so you should ideally use any of the process manager recommended [here](http://expressjs.com/en/advanced/pm.html).
 We recommend [pm2](http://pm2.keymetrics.io/) as it has several useful features like it can be configured to auto-start your services if system is rebooted.
 
-## Docker
-
-#### Using Docker Compose for Development
-```sh
-# service restarts on file change
-bash bin/development.sh
-```
-
-#### Building and running without Docker Compose
-```bash
-# To use this option you need to make sure mongodb is listening on port 27017
-
-# Build docker 
-docker build -t express-boilerplate .
-
-# Run docker
-docker run -p 4040:4040 express-boilerplate
-```
-
 ## Contributing
 
 Contributions, questions and comments are all welcome and encouraged. For code contributions submit a pull request with unit test.
 
 ## License
+
 This project is licensed under the [MIT License](https://github.com/DalderupMaurice/express-boilerplate/blob/master/LICENSE)
 
 ## Meta
