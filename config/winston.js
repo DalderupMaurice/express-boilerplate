@@ -1,12 +1,18 @@
-'use strict';
+import { Logger, transports } from "winston";
 
-import winston from 'winston';
-
-const logger = new winston.Logger({
-  transports: [new winston.transports.Console({
-    json: true,
-    colorize: true
-  })]
+const logger = new Logger({
+  transports: [
+    new transports.Console({
+      level: "DEBUG",
+      prettyPrint: true,
+      humanReadableUnhandledException: true,
+      handleExceptions: true,
+      json: false,
+      label: "SERVER",
+      colorize: true
+    })
+  ],
+  exitOnError: false
 });
 
 export default logger;
