@@ -1,8 +1,7 @@
 {
   "name": "express-boilerplate",
-  "version": "5.0.0",
-  "description":
-    "A Boilerplate application for building REST APIs using express, mongoose in ES6 with code coverage",
+  "version": "1.0.0",
+  "description": "A Boilerplate application for building REST APIs using express, mongoose in ES6 with code coverage",
   "author": "Maurice Dalderup <Maurice_Dalderup@hotmail.com>",
   "license": "MIT",
   "main": "index.js",
@@ -18,11 +17,9 @@
     "lint": "esw *.js server config --color --fix",
     "lint:watch": "yarn lint -- --watch",
     "precommit": "lint-staged",
-    "test":
-      "cross-env NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --reporter spec --colors server --recursive",
+    "test": "cross-env NODE_ENV=test ./node_modules/.bin/mocha --ui bdd --reporter spec --colors server --recursive",
     "test:watch": "yarn test -- --watch",
-    "test:coverage":
-      "cross-env NODE_ENV=test ./node_modules/.bin/istanbul cover _mocha -- --ui bdd --reporter spec --colors server --recursive",
+    "test:coverage": "cross-env NODE_ENV=test ./node_modules/.bin/istanbul cover _mocha -- --ui bdd --reporter spec --colors server --recursive",
     "test:check-coverage": "yarn test:coverage && istanbul check-coverage",
     "report-coverage": "coveralls < ./coverage/lcov.info"
   },
@@ -81,7 +78,7 @@
     "supertest-as-promised": "4.0.2"
   },
   "lint-staged": {
-    "*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.{js,css,md}": ["yarn lint", "prettier --write", "git add"]
   },
   "repository": {
     "type": "git",
