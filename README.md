@@ -1,3 +1,38 @@
+<p align="center">
+  <img src="./logo.png" width="150px" /> 
+</p>
+
+<h1 align="center">Express boilerplate</h1>
+
+<p align="center">
+  This creates a project <strong>boilerplate</strong> for <strong>Express</strong> with a custom stack
+</p>
+
+<p align="center">
+
+  <a href='https://travis-ci.org/DalderupMaurice/express-boilerplate'>
+    <img src='https://travis-ci.org/DalderupMaurice/express-boilerplate.svg?branch=master' alt='Build Status' />
+  </a>
+  <a href='https://coveralls.io/github/DalderupMaurice/express-boilerplate?branch=master'>
+    <img src='https://coveralls.io/repos/github/DalderupMaurice/express-boilerplate/badge.svg?branch=master' alt='Coverage Status' />
+  </a>
+  <a href='https://gemnasium.com/github.com/DalderupMaurice/express-boilerplate'>
+    <img src="https://gemnasium.com/badges/github.com/DalderupMaurice/express-boilerplate.svg" alt="Dependency Status" />
+  </a>
+
+  <a href="https://deepscan.io/dashboard#view=project&pid=2257&bid=12752">
+    <img src="https://deepscan.io/api/projects/2257/branches/12752/badge/grade.svg" alt="DeepScan grade">
+  </a>
+  <img src='https://bettercodehub.com/edge/badge/DalderupMaurice/express-boilerplate?branch=master'>
+  <a href='https://github.com/prettier/prettier'>
+    <img src='https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat'>
+  </a>
+</p>
+
+
+
+
+
 ## Overview
 
 This is a boilerplate application for building REST APIs in Node.js using ES6 and Express with Code Coverage and JWT Authentication. Helps you stay productive by following best practices. Follows [Airbnb's Javascript style guide](https://github.com/airbnb/javascript).
