@@ -43,7 +43,7 @@ const create = (req, res, next) => {
  * @returns {User}
  */
 const update = (req, res, next) => {
-  const user = req.user;
+  const { user } = req;
   user.username = req.body.username;
   user.mobileNumber = req.body.mobileNumber;
 
@@ -76,7 +76,7 @@ const list = (req, res, next) => {
  * @returns {User}
  */
 const remove = (req, res, next) => {
-  const user = req.user;
+  const { user } = req;
   user
     .remove()
     .then(deletedUser => res.json(deletedUser))
