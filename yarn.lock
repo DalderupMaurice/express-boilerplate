@@ -2279,9 +2279,9 @@ express-validation@1.0.2:
   dependencies:
     lodash "^4.9.0"
 
-express-winston@2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-2.5.0.tgz#afaf005b62ad4469b0692ea22f745a06a5ebbead"
+express-winston@2.5.1:
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-2.5.1.tgz#0263581b4441a06493ba31882e3c5250791522f0"
   dependencies:
     chalk "~0.4.0"
     lodash "~4.17.5"
