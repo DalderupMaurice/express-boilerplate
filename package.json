@@ -58,7 +58,7 @@
     "del": "3.0.0",
     "eslint": "4.19.1",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-config-prettier": "2.9.0",
+    "eslint-config-prettier": "4.0.0",
     "eslint-plugin-import": "2.16.0",
     "eslint-plugin-prettier": "2.6.0",
     "eslint-watch": "4.0.2",
