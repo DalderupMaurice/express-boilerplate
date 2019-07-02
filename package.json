@@ -64,7 +64,7 @@
     "eslint-watch": "5.1.2",
     "gulp": "4.0.2",
     "gulp-babel": "8.0.0",
-    "gulp-load-plugins": "1.6.0",
+    "gulp-load-plugins": "2.0.0",
     "gulp-newer": "1.4.0",
     "gulp-nodemon": "2.4.2",
     "gulp-sourcemaps": "2.6.5",
