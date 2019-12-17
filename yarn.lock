@@ -2609,9 +2609,9 @@ express-validation@1.0.3:
     "@types/joi" "^14.3.3"
     lodash "^4.17.15"
 
-express-winston@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-4.0.1.tgz#98c74d099b9a7fdeedc56eb839c223968bc33990"
+express-winston@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-4.0.2.tgz#07bf9e0139259a9f7207b17077d307c2b2d678e7"
   dependencies:
     chalk "^2.4.1"
     lodash "^4.17.10"
