@@ -2640,9 +2640,9 @@ express-unless@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/express-unless/-/express-unless-0.3.0.tgz#5c795e7392571512dd28f520b3857a52b21261a2"
 
-express-validation@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-1.0.3.tgz#677261e65f27f4e869c98dedc7934da6bbefaa8f"
+express-validation@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-2.0.0.tgz#43597b82b6869969e2920c4e143d13f6c865bcb8"
   dependencies:
     "@types/joi" "^14.3.3"
     lodash "^4.17.15"
