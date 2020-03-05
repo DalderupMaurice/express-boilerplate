@@ -39,6 +39,40 @@
     normalize-path "^2.0.1"
     through2 "^2.0.3"
 
+"@hapi/address@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@hapi/address/-/address-4.0.0.tgz#36affb4509b5a6adc628bcc394450f2a7d51d111"
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
+
+"@hapi/formula@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@hapi/formula/-/formula-2.0.0.tgz#edade0619ed58c8e4f164f233cda70211e787128"
+
+"@hapi/hoek@^9.0.0":
+  version "9.0.3"
+  resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.0.3.tgz#e49e637d5de8faa4f0d313c2590b455d7c00afd7"
+
+"@hapi/joi@17.x.x":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-17.1.0.tgz#cc4000b6c928a6a39b9bef092151b6bdee10ce55"
+  dependencies:
+    "@hapi/address" "^4.0.0"
+    "@hapi/formula" "^2.0.0"
+    "@hapi/hoek" "^9.0.0"
+    "@hapi/pinpoint" "^2.0.0"
+    "@hapi/topo" "^5.0.0"
+
+"@hapi/pinpoint@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@hapi/pinpoint/-/pinpoint-2.0.0.tgz#805b40d4dbec04fc116a73089494e00f073de8df"
+
+"@hapi/topo@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@hapi/topo/-/topo-5.0.0.tgz#c19af8577fa393a06e9c77b60995af959be721e7"
+  dependencies:
+    "@hapi/hoek" "^9.0.0"
+
 "@nodelib/fs.scandir@2.1.1":
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.1.tgz#7fa8fed654939e1a39753d286b48b4836d00e0eb"
@@ -78,10 +112,6 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
-
-"@types/joi@^14.3.3":
-  version "14.3.3"
-  resolved "https://registry.yarnpkg.com/@types/joi/-/joi-14.3.3.tgz#f251aa8150fc0b6a7ce9feab21802a28473de335"
 
 "@types/minimatch@*":
   version "3.0.3"
@@ -2613,12 +2643,11 @@ express-unless@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/express-unless/-/express-unless-0.3.0.tgz#5c795e7392571512dd28f520b3857a52b21261a2"
 
-express-validation@2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-2.0.0.tgz#43597b82b6869969e2920c4e143d13f6c865bcb8"
+express-validation@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.0.tgz#7e2f47b6b85271974b8c4b636d04ad4f3430cde0"
   dependencies:
-    "@types/joi" "^14.3.3"
-    lodash "^4.17.15"
+    "@hapi/joi" "17.x.x"
 
 express-winston@4.0.3:
   version "4.0.3"
