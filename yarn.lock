@@ -2643,9 +2643,9 @@ express-unless@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/express-unless/-/express-unless-0.3.0.tgz#5c795e7392571512dd28f520b3857a52b21261a2"
 
-express-validation@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.1.tgz#8fcc3df47aeaef9e4c91de7858c918c14821fdb9"
+express-validation@3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.2.tgz#f18bb48bc9c236993e670482b622cf19bc9301e7"
   dependencies:
     "@hapi/joi" "17.x.x"
 
