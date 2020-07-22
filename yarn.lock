@@ -2698,10 +2698,10 @@ express-validation@3.0.5:
     "@types/express" "4.x.x"
     "@types/hapi__joi" "16.x.x"
 
-express-winston@4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-4.0.4.tgz#aebd028bd6e7c7f0b91be1844ffdc08c00d578bf"
-  integrity sha512-Ds39tzA+z8YJPX2AOCqHxvASwHDgwi3cdZVltvfAvR+QfMdbbIx/NbeZc2SSaCM+JjTygbByfe44eGyOGdp5EA==
+express-winston@4.0.5:
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/express-winston/-/express-winston-4.0.5.tgz#de457906eb1ef71b79f7673f5c9a0c6f5acec3b6"
+  integrity sha512-n9M1imjDYqPQKp6HdHArAucfF5WNYYG4S/FQPdJTmS7sysXALosBgtWyen74WFS67WiqtbBpwNV5iX7Rk01AKw==
   dependencies:
     chalk "^2.4.1"
     lodash "^4.17.19"
