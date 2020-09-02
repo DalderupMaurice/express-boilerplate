@@ -64,12 +64,6 @@
     normalize-path "^2.0.1"
     through2 "^2.0.3"
 
-"@hapi/address@^4.0.0":
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/@hapi/address/-/address-4.0.0.tgz#36affb4509b5a6adc628bcc394450f2a7d51d111"
-  dependencies:
-    "@hapi/hoek" "^9.0.0"
-
 "@hapi/address@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-4.1.0.tgz#d60c5c0d930e77456fdcde2598e77302e2955e1d"
@@ -84,16 +78,6 @@
 "@hapi/hoek@^9.0.0":
   version "9.0.3"
   resolved "https://registry.yarnpkg.com/@hapi/hoek/-/hoek-9.0.3.tgz#e49e637d5de8faa4f0d313c2590b455d7c00afd7"
-
-"@hapi/joi@17.x.x":
-  version "17.1.0"
-  resolved "https://registry.yarnpkg.com/@hapi/joi/-/joi-17.1.0.tgz#cc4000b6c928a6a39b9bef092151b6bdee10ce55"
-  dependencies:
-    "@hapi/address" "^4.0.0"
-    "@hapi/formula" "^2.0.0"
-    "@hapi/hoek" "^9.0.0"
-    "@hapi/pinpoint" "^2.0.0"
-    "@hapi/topo" "^5.0.0"
 
 "@hapi/pinpoint@^2.0.0":
   version "2.0.0"
@@ -2764,13 +2748,14 @@ express-unless@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/express-unless/-/express-unless-0.3.0.tgz#5c795e7392571512dd28f520b3857a52b21261a2"
 
-express-validation@3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.5.tgz#6076994da4532d1aaa3d94228dff9e11b4a435d6"
+express-validation@3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.6.tgz#fdec4c418a9a0ecdce790bad3750286e8d777238"
+  integrity sha512-a+v1VsOuKS4Jsbf1hA10KJx/jBJNjOs4UT2sCpNeerj6yNbreHj0UEZdZdlL9FQfwEwm25WMgPzM3CPIXujAsA==
   dependencies:
-    "@hapi/joi" "17.x.x"
     "@types/express" "4.x.x"
     "@types/hapi__joi" "16.x.x"
+    joi "17.x.x"
 
 express-winston@4.0.5:
   version "4.0.5"
@@ -4367,7 +4352,7 @@ jodid25519@^1.0.0:
   dependencies:
     jsbn "~0.1.0"
 
-joi@17.2.1:
+joi@17.2.1, joi@17.x.x:
   version "17.2.1"
   resolved "https://registry.yarnpkg.com/joi/-/joi-17.2.1.tgz#e5140fdf07e8fecf9bc977c2832d1bdb1e3f2a0a"
   integrity sha512-YT3/4Ln+5YRpacdmfEfrrKh50/kkgX3LgBltjqnlMPIYiZ4hxXZuVJcxmsvxsdeHg9soZfE3qXxHC2tMpCCBOA==
