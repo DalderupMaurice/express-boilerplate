@@ -67,7 +67,7 @@
     "gulp-load-plugins": "2.0.5",
     "gulp-newer": "1.4.0",
     "gulp-nodemon": "2.5.0",
-    "gulp-sourcemaps": "2.6.5",
+    "gulp-sourcemaps": "3.0.0",
     "husky": "4.3.0",
     "istanbul": "1.1.0-alpha.1",
     "lint-staged": "10.5.1",
