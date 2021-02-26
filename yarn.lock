@@ -2814,10 +2814,10 @@ express-unless@^0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/express-unless/-/express-unless-0.3.0.tgz#5c795e7392571512dd28f520b3857a52b21261a2"
 
-express-validation@3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.7.tgz#49a191b31fa0086a1edb4eb7cd0d4bb8c033b146"
-  integrity sha512-fD25BWnBBxoZlSM183y5+n4EWqsACwHdHQg6h1hOKtpjggTfOWC0aSDXUxOrIsLDnhhvNqzY9i9j9BwFS+36cQ==
+express-validation@3.0.8:
+  version "3.0.8"
+  resolved "https://registry.yarnpkg.com/express-validation/-/express-validation-3.0.8.tgz#c328f198b5f25e154cdb51f329bbb3ce24c8f644"
+  integrity sha512-jyEEysGLpZ1C9WKkLct44CQYlTQ7MR9olTjOo38kkl+NdqwnWBB5UJapPMG+NMxnjvHnT9/+X1RMQjuT1nLCwg==
   dependencies:
     "@types/express" "4.x.x"
     "@types/hapi__joi" "16.x.x"
