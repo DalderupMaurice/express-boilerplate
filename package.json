@@ -30,7 +30,7 @@
     "cookie-parser": "1.4.6",
     "cors": "2.8.5",
     "debug": "4.3.3",
-    "dotenv": "^12.0.0",
+    "dotenv": "^13.0.0",
     "express": "4.17.2",
     "express-jwt": "6.1.0",
     "express-validation": "3.0.8",
