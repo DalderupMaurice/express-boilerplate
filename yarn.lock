@@ -2798,10 +2798,10 @@ expand-tilde@^2.0.0, expand-tilde@^2.0.2:
   dependencies:
     homedir-polyfill "^1.0.1"
 
-express-jwt@7.4.2:
-  version "7.4.2"
-  resolved "https://registry.yarnpkg.com/express-jwt/-/express-jwt-7.4.2.tgz#30c1fe32407915a614883538cfba3c8a5adda488"
-  integrity sha512-gTfBKSGUg3ONxnv3BUOhO8wBB+iO03S3GXT/qJmmKDYUt0qkwydcuL8POQ/JIyV3PSGuK6kNw7esx4owyPkhQQ==
+express-jwt@7.4.3:
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/express-jwt/-/express-jwt-7.4.3.tgz#27fca82bf0cb050d64699f197acd8c7324123bcf"
+  integrity sha512-sdRg9UiPW7QVywSlFl2cJALZWndxBM4HGyNqH7FyzDMYtboyBhssfLAD3ZYklraQz+wGR4Q3YsMipXZrNsQT5A==
   dependencies:
     express-unless "^1.0.0"
     jsonwebtoken "^8.5.1"
