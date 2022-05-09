@@ -36,7 +36,7 @@
     "express-validation": "4.1.0",
     "express-winston": "4.2.0",
     "helmet": "5.0.2",
-    "http-status": "1.5.1",
+    "http-status": "1.5.2",
     "joi": "17.6.0",
     "jsonwebtoken": "8.5.1",
     "method-override": "^3.0.0",
