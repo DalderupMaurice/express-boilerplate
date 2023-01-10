@@ -4633,10 +4633,10 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-http-status@1.6.1:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.6.1.tgz#8917cbc0df1e2a0f9bc5c43777d9371eaeb862b5"
-  integrity sha512-kr3txP/rwmTi6WhSPgw8Ai4WGq39l/Am8DeXgRhTSbjnnbo98m0A11+we+my3+NJw05h7g6HWhen+jJkLMw6oA==
+http-status@1.6.2:
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/http-status/-/http-status-1.6.2.tgz#6dc05188a9856d67d96e48e8b4fd645c719ce82a"
+  integrity sha512-oUExvfNckrpTpDazph7kNG8sQi5au3BeTo0idaZFXEhTaJKu7GNJCLHI0rYY2wljm548MSTM+Ljj/c6anqu2zQ==
 
 human-signals@^2.1.0:
   version "2.1.0"
