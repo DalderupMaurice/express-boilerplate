@@ -68,7 +68,7 @@
     "gulp-newer": "1.4.0",
     "gulp-nodemon": "2.5.0",
     "gulp-sourcemaps": "3.0.0",
-    "husky": "9.1.1",
+    "husky": "9.1.2",
     "istanbul": "1.1.0-alpha.1",
     "lint-staged": "15.2.7",
     "mocha": "10.7.0",
