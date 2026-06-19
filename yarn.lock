@@ -4499,13 +4499,14 @@ graceful-fs@^4.2.11, graceful-fs@^4.2.8:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-gulp-babel@8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/gulp-babel/-/gulp-babel-8.0.0.tgz#e0da96f4f2ec4a88dd3a3030f476e38ab2126d87"
+gulp-babel@8.1.0:
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-babel/-/gulp-babel-8.1.0.tgz#d0c1cb4b53d6002eec350b866b54e9807a4c7ea3"
+  integrity sha512-QtFF9+h3xrVjfo79h7HCY4S8k4qNEcOz7ffpfavlscv0F0glfTQyv4kEYvX+YykTm4qllMF4aZfjeqLjzddTYA==
   dependencies:
     plugin-error "^1.0.1"
     replace-ext "^1.0.0"
-    through2 "^2.0.0"
+    through2 "^3.0.0"
     vinyl-sourcemaps-apply "^0.2.0"
 
 gulp-cli@^2.0.0:
@@ -9168,7 +9169,7 @@ through2@^2.0.0, through2@^2.0.3:
     readable-stream "^2.1.5"
     xtend "~4.0.1"
 
-through2@^3.0.1:
+through2@^3.0.0, through2@^3.0.1:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/through2/-/through2-3.0.2.tgz#99f88931cfc761ec7678b41d5d7336b5b6a07bf4"
   integrity sha512-enaDQ4MUyP2W6ZyT6EsMzqBPZaM/avg8iuo+l2d3QCs0J+6RaqkHV/2/lOwDTueBHeJ/2LG9lrLW3d5rWPucuQ==
